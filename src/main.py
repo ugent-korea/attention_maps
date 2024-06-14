@@ -17,7 +17,7 @@ def generate_interpretability(dataset_type, init_type, method, device):
     model.eval()
     model.to(device)
 
-    dataset_src = f"../data_refactor/{dataset_type}"
+    dataset_src = f"../data/{dataset_type}"
     img_list = sorted(os.listdir(dataset_src))
 
     output_dir = os.path.join('./output', method)
@@ -47,7 +47,7 @@ def generate_interpretability(dataset_type, init_type, method, device):
 
 # I really don't like current structure, will be revised. 
 def generate_iou_evaluation(dataset_type, top_perc):
-    annot_mask_src = f"../data_refactor/224_mask_annot_from_dr/{dataset_type}"
+    annot_mask_src = f"../data/224_mask_annot_from_dr/{dataset_type}"
 
     methods = ["gradcam", "attention", "chefer"]
     init_types = ["scratch", "sup", "dino", "mae"]
@@ -86,7 +86,7 @@ def generate_iou_evaluation(dataset_type, top_perc):
 
 # I really don't like current structure, will be revised. 
 def generate_pg_evaluation(dataset_type):
-    annot_mask_src = f"../data_refactor/224_mask_annot_from_dr/{dataset_type}"
+    annot_mask_src = f"../data/224_mask_annot_from_dr/{dataset_type}"
 
     methods = ["gradcam", "attention", "chefer"]
     init_types = ["scratch", "sup", "dino", "mae"]
