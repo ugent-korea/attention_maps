@@ -97,15 +97,6 @@ def generate_evaluation(dataset_type, evaluation_type, top_perc=None):
     print(f"Results saved to {csv_filename}")
 
 
-def generate_iou_evaluation(dataset_type, top_perc):
-    generate_evaluation(dataset_type, 'iou', top_perc)
-
-
-def generate_pg_evaluation(dataset_type):
-    generate_evaluation(dataset_type, 'pg')
-
-
-
 if __name__ == "__main__":
     # Parameters
     dataset_types = ["duke", "mura", "kvasir", "cpchild"]
@@ -124,9 +115,9 @@ if __name__ == "__main__":
     # Evaluate interpretability maps. In this case, only dataset type is used as a parameter
     # As the evaluation results will be generated per dataset.
     for dataset_type in dataset_types:
-        generate_iou_evaluation(dataset_type, 5)
-        generate_iou_evaluation(dataset_type, 10)
-        generate_iou_evaluation(dataset_type, 20)
-        generate_iou_evaluation(dataset_type, 40)
-        generate_pg_evaluation(dataset_type)
+        generate_evaluation(dataset_type, 'iou', 5)
+        generate_evaluation(dataset_type, 'iou', 10)
+        generate_evaluation(dataset_type, 'iou', 20)
+        generate_evaluation(dataset_type, 'iou', 40)
+        generate_evaluation(dataset_type, 'pg')
 
