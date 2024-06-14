@@ -129,7 +129,7 @@ if __name__ == "__main__":
     methods = ["gradcam", "attention", "chefer"]
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-    Generate interpretability maps for the dataset and save them
+    # Generate interpretability maps for the dataset and save them
     for dataset_type in dataset_types:
         for init_type in init_types:
             for method in methods:
