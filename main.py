@@ -129,14 +129,13 @@ if __name__ == "__main__":
     methods = ["gradcam", "attention", "chefer"]
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-    # Generate interpretability maps for the dataset and save them
-    # for dataset_type in dataset_types:
-    #     for init_type in init_types:
-    #         for method in methods:
-    #             generate_interpretability(dataset_type, init_type, method, device)
+    Generate interpretability maps for the dataset and save them
+    for dataset_type in dataset_types:
+        for init_type in init_types:
+            for method in methods:
+                generate_interpretability(dataset_type, init_type, method, device)
 
-    # Visualization (commented out as no implementation provided)
-    # vizualzation(dataset_type)
+    # Visualization (commented out as no implementation yet)
 
     # Evaluate interpretability maps. In this case, only dataset type is used as a parameter
     # As the evaluation results will be generated per dataset.
