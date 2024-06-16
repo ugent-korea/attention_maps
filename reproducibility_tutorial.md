@@ -7,7 +7,7 @@ All the images are resized into 256 by 256 pixels.
 
 ## Musculoskeletal radiographs (MURA)
 Go to section 'Downloading the Dataset (v1.0)' at [this link](https://stanfordmlgroup.github.io/competitions/mura/). It will redirect you to Stanford AIMI website.
-You have to register and log in the website to access the data. After loggin in, register for MURA: MSK X-rays. 
+You have to register and log in the website to access the data. After log-in, register for MURA: MSK X-rays. 
 All the images are preprocessed by resizing the shortest side to 256 pixels while maintaining the aspect ratio.
 
 ## Kvasir
