@@ -17,5 +17,15 @@ The structure of this repository is as follows:
 ## References
 
 Chefer, H., Gur, S., & Wolf, L. (2021). Transformer Interpretability Beyond Attention Visualization. 
-Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 
+_Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition_, 
 782–791. https://doi.org/10.1109/CVPR46437.2021.00084
+
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., Dehghani, M., 
+Minderer, M., Heigold, G., Gelly, S., Uszkoreit, J., & Houlsby, N. (2020). An Image is Worth 16x16 
+Words: Transformers for Image Recognition at Scale. _arxiv_.
+https://doi.org/10.48550/arXiv.2010.11929
+
+Selvaraju, R. R., Cogswell, M., Das, A., Vedantam, R., Parikh, D., & Batra, D. (2017). Grad-CAM: Visual 
+Explanations from Deep Networks via Gradient-Based Localization. _Proceedings of the IEEE 
+International Conference on Computer Vision_, 618–626. 
+https://doi.org/10.1109/ICCV.2017.74
