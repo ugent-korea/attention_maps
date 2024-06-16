@@ -9,7 +9,7 @@ You can run `main.py` to generate interpretability maps and final evaluation res
 The structure of this repository is as follows:
 * **Code** - *src/* folder contains necessary python files to generate interpretability maps (including attention maps) and evaluate different interpretability methods.
 
-* **Data** - *data/* folder contains placeholding directories only without any image data. You may follow the instruction here to download medical image datasets that we used.
+* **Data** - *data/* folder contains placeholding directories only without any image data. You may follow the instruction [here](https://github.com/ugent-korea/attention_maps/blob/master/reproducibility_tutorial.md) to download medical image datasets that we used.
 
 * **Checkpoints** - *weights/* folder is a placeholding directory as well. `.pth` files of our selected trained models and MAE & DINO pre-trained ViT weights should be put in this directory.
 
