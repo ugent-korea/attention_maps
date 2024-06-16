@@ -12,3 +12,10 @@ The structure of this repository is as follows:
 * **Data** - *data/* folder contains placeholding directories only without any image data. You may follow the instruction here to download medical image datasets that we used.
 
 * **Checkpoints** - *weights/* folder is a placeholding directory as well. `.pth` files of our selected trained models and MAE & DINO pre-trained ViT weights should be put in this directory.
+
+
+## References
+
+Chefer, H., Gur, S., & Wolf, L. (2021). Transformer Interpretability Beyond Attention Visualization. 
+Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 
+782–791. https://doi.org/10.1109/CVPR46437.2021.00084
