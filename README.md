@@ -7,8 +7,8 @@ This repository contains the implementation of the project _"Are attention maps 
 You can run `main.py` to generate interpretability maps and final evaluation results over all datasets and interpretability methods.
 
 The structure of this repository is as follows:
-* **Code** - *src/* folder contains necessary python files to perform the attack and calculate various stats (i.e., correctness and modification)
+* **Code** - *src/* folder contains necessary python files to generate interpretability maps (including attention maps) and evaluate different evaluation methods.
 
-* **Data** - *data/* folder contains placeholding directories only without any image data. You may follow the instruction here to download medical image datasets that we used
+* **Data** - *data/* folder contains placeholding directories only without any image data. You may follow the instruction here to download medical image datasets that we used.
 
 * **Checkpoints** - *weights/* folder is a placeholding directory as well. `.pth` files of our selected trained models and MAE & DINO pre-trained ViT weights should be put in this directory.
