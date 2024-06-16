@@ -39,8 +39,8 @@ def load_vit(model_name):
     current_path = os.path.dirname(os.path.abspath(__file__))
     path = current_path + '/'
     model_locs = {
-        'mae': 'weights/mae_finetuned_vit_base.pth',
-        'dino': 'weights/dino_vitbase16_pretrain.pth',
+        'mae': '../weights/mae_finetuned_vit_base.pth',
+        'dino': '../weights/dino_vitbase16_pretrain.pth',
         'sup': 'n/a',
         'scratch': 'n/a',}
 
@@ -73,7 +73,7 @@ def load_vit(model_name):
     return model
 
 
-def load_model(dataset_type, init_type, method, src = './weights'):
+def load_model(dataset_type, init_type, method, src = '../weights'):
     """
     Load a pretrained model from disk, corresponding to the given pretraining method and dataset name
     """
