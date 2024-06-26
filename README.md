@@ -19,7 +19,7 @@ The structure of this repository is as follows:
 |------------------|-----------------:|-----------:|-----:|----:|
 | CP-Child         |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
 | DUKE             |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
-| Kvasir           |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
+| Kvasir           |[Download](https://drive.google.com/file/d/1Kc4rEEfT8w5MIFdhmV9YUyJY3zwH-8Yf/view?usp=drive_link)|[Download](Link)|[Download](Link)|[Download](Link)|
 | MURA             |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
 
 
