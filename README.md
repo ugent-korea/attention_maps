@@ -17,10 +17,10 @@ The structure of this repository is as follows:
 ## Checkpoints
 | Dataset / Method |           Random | Supervised | DINO | MAE |
 |------------------|-----------------:|-----------:|-----:|----:|
-| CP-Child         |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
-| DUKE             |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
-| Kvasir           |[Download](https://drive.google.com/file/d/1Kc4rEEfT8w5MIFdhmV9YUyJY3zwH-8Yf/view?usp=drive_link)|[Download](Link)|[Download](Link)|[Download](Link)|
-| MURA             |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
+| CP-Child         |[Download](https://drive.google.com/file/d/12yZ1JxoEnSNuXQIfoWvs-DvN9DaI6ZMp/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1junOUWWRRTPtvauJeIxu1dzwjMtYwOSl/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1zL8fJW69Ze4EfvPt58k2idNJ8kLhVR-c/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1eI38mIIHDod2czM4klsIgf_3tyyimWaJ/view?usp=drive_link)|
+| DUKE             |[Download](https://drive.google.com/file/d/16--L8NNOH1z_cKdUNza7riAMw8ngoVxv/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1n7K4EWd0ALQ5RE0dSqL-P8zV-hUfrsVG/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1YGj4B-u3ztB6qz3NA--11KT7_hWJkYIo/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1IBt_X3Rv-GybjquOjcQnyvY0R7oZhTtT/view?usp=drive_link)|
+| Kvasir           |[Download](https://drive.google.com/file/d/1HtV6cTiSA7I01_fLIthprQ-ViTPvXCb9/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1dPqiPFOmear24XYUPzsIHT52oF65clMs/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1nAWSTKJ05xeMMq2R05LioVcu1WiDmNmw/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1Kc4rEEfT8w5MIFdhmV9YUyJY3zwH-8Yf/view?usp=drive_link)|
+| MURA             |[Download](https://drive.google.com/file/d/1uwGYNym6vnQTxDUtdKTyL_KVmwrNCyJo/view?usp=drive_link)|[Download](https://drive.google.com/file/d/16vpyWh9gfj0TwJZBeNWD1ymcyvkFqpCl/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1Pg2ChmMVHUZqZmhpn1_Jrpyt9VBkocNR/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1nSflcnkNG4dJ2dFaYuipoOFYk76kT9uU/view?usp=drive_link)|
 
 
 ## References
