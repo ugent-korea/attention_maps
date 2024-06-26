@@ -14,6 +14,15 @@ The structure of this repository is as follows:
 * **Checkpoints** - *weights/* folder is a placeholding directory as well. `.pth` files of our selected trained models and MAE & DINO pre-trained ViT weights should be put in this directory.
 
 
+## Checkpoints
+| Dataset / Method |           Random | Supervised | DINO | MAE |
+|------------------|-----------------:|-----------:|-----:|----:|
+| CP-Child         | [Download](Link) | [Download](Link) | [Download](Link)| [Download](Link)|
+| DUKE             | [Download](Link) | [Download](Link) | [Download](Link) | [Download](Link) |
+| Kvasir           | [Download](Link) | [Download](Link)| [Download](Link) | [Download](Link) |
+| MURA             | [Download](Link) |  [Download](Link) | [Download](Link) | [Download](Link) |
+
+
 ## References
 
 Chefer, H., Gur, S., & Wolf, L. (2021). Transformer Interpretability Beyond Attention Visualization. 
