@@ -17,10 +17,10 @@ The structure of this repository is as follows:
 ## Checkpoints
 | Dataset / Method |           Random | Supervised | DINO | MAE |
 |------------------|-----------------:|-----------:|-----:|----:|
-| CP-Child         | [Download](Link) | [Download](Link) | [Download](Link)| [Download](Link)|
-| DUKE             | [Download](Link) | [Download](Link) | [Download](Link) | [Download](Link) |
-| Kvasir           | [Download](Link) | [Download](Link)| [Download](Link) | [Download](Link) |
-| MURA             | [Download](Link) |  [Download](Link) | [Download](Link) | [Download](Link) |
+| CP-Child         |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
+| DUKE             |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
+| Kvasir           |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
+| MURA             |[Download](Link)|[Download](Link)|[Download](Link)|[Download](Link)|
 
 
 ## References
