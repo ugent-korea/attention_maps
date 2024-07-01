@@ -14,7 +14,7 @@ The structure of this repository is as follows:
 * **Checkpoints** - *weights/* folder is a placeholding directory as well. `.pth` files of our selected trained models and MAE & DINO pre-trained ViT weights should be put in this directory.
 
 ## Training
-To evaluate interpretability methods, **ViT-B/16** models are trained to achieve state-of-the-art benchmark performance for each medical imaging dataset. 4 different initalization methods are used: **random** (i.e., from scratch), **supervised**, **DINO**, and **MAE**. Note that they are pretrained on ImageNet, except for the random initalization. 
+To evaluate interpretability methods, **ViT-B/16** models are trained to achieve the state-of-the-art benchmark performance for each medical imaging dataset. 4 different initalization methods are used: **random** (i.e., from scratch), **supervised**, **DINO**, and **MAE**. Note that they are pretrained on ImageNet, except for the random initalization. 
 
 ### Hyperparameter Settings
 The table below shows the hyperparameter settings used to train each model of this project. Saved epoch means the epoch of model selection in which early stopping based on validation loss happened. You can use these to reproduce our training results.
