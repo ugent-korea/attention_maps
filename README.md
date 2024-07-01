@@ -15,7 +15,7 @@ The structure of this repository is as follows:
 
 ## Training
 ### Hyperparameter Settings
-
+The table below shows the hyperparameter settings used to train each model of this project. Saved epoch means the epoch of model selection in which early stopping based on validation loss happened. You can use these to reproduce our training results.
 <table>
     <thead>
         <tr>
@@ -217,6 +217,7 @@ The structure of this repository is as follows:
 
 
 ### Checkpoints
+This is another option to reproduce our results. You can just directly download checkpoints and load them to run `main.py`.
 | Dataset / Method |           Random | Supervised | DINO | MAE |
 |------------------|-----------------:|-----------:|-----:|----:|
 | CP-Child         |[Download](https://drive.google.com/file/d/12yZ1JxoEnSNuXQIfoWvs-DvN9DaI6ZMp/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1junOUWWRRTPtvauJeIxu1dzwjMtYwOSl/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1zL8fJW69Ze4EfvPt58k2idNJ8kLhVR-c/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1eI38mIIHDod2czM4klsIgf_3tyyimWaJ/view?usp=drive_link)|
