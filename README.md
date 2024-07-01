@@ -18,7 +18,7 @@ The structure of this repository is as follows:
 
 | Dataset   | Model init. | Optimizer | Learning Rate | Momentum | Weight Decay | Scheduler       | Total Epoch | Saved Epoch | Batch Size |
 |-----------|-------------|-----------|---------------|----------|--------------|-----------------|-------------|-------------|------------|
-| <div rowspan="4">MURA</div>      | Random      | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 200         | 180         | 64         |
+| MURA      | Random      | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 200         | 180         | 64         |
 |           | Sup         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 9           | 64         |
 |           | DINO        | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 150         | 43          | 64         |
 |           | MAE         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 35          | 64         |
