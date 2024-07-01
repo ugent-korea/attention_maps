@@ -13,14 +13,40 @@ The structure of this repository is as follows:
 
 * **Checkpoints** - *weights/* folder is a placeholding directory as well. `.pth` files of our selected trained models and MAE & DINO pre-trained ViT weights should be put in this directory.
 
+## Training
+### Hyperparamter Settings
 
-## Checkpoints
+| Dataset   | Model init. | Optimizer | Learning Rate | Momentum | Weight Decay | Scheduler       | Total Epoch | Saved Epoch | Batch Size |
+|-----------|-------------|-----------|---------------|----------|--------------|-----------------|-------------|-------------|------------|
+| MURA      | Random      | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 200         | 180         | 64         |
+|           | Sup         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 9           | 64         |
+|           | DINO        | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 150         | 43          | 64         |
+|           | MAE         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 35          | 64         |
+| CP-CHILD  | Random      | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 18          | 64         |
+|           | Sup         | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 5           | 64         |
+|           | DINO        | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 12          | 64         |
+|           | MAE         | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 11          | 64         |
+| Kvasir    | Random      | SGD       | 0.08          | 0.1      | 0            | CosineAnnealing | 25          | 24          | 32         |
+|           | Sup         | SGD       | 0.0018        | 0.1      | 0            | CosineAnnealing | 25          | 8           | 32         |
+|           | DINO        | SGD       | 0.0012        | 0.1      | 0.0001       | CosineAnnealing | 25          | 20          | 32         |
+|           | MAE         | SGD       | 0.02          | 0.1      | 0.0001       | CosineAnnealing | 25          | 25          | 32         |
+| DBC       | Random      | SGD       | 0.1           | 0.3      | 0            | CosineAnnealing | 200         | 79          | 64         |
+|           | Sup         | SGD       | 0.03          | 0.1      | 0            | CosineAnnealing | 20          | 2           | 64         |
+|           | DINO        | SGD       | 0.005         | 0.1      | 0            | CosineAnnealing | 15          | 5           | 64         |
+|           | MAE         | SGD       | 0.03          | 0.1      | 0            | CosineAnnealing | 15          | 2           | 64         |
+
+
+
+### Checkpoints
 | Dataset / Method |           Random | Supervised | DINO | MAE |
 |------------------|-----------------:|-----------:|-----:|----:|
 | CP-Child         |[Download](https://drive.google.com/file/d/12yZ1JxoEnSNuXQIfoWvs-DvN9DaI6ZMp/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1junOUWWRRTPtvauJeIxu1dzwjMtYwOSl/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1zL8fJW69Ze4EfvPt58k2idNJ8kLhVR-c/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1eI38mIIHDod2czM4klsIgf_3tyyimWaJ/view?usp=drive_link)|
 | DUKE             |[Download](https://drive.google.com/file/d/16--L8NNOH1z_cKdUNza7riAMw8ngoVxv/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1n7K4EWd0ALQ5RE0dSqL-P8zV-hUfrsVG/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1YGj4B-u3ztB6qz3NA--11KT7_hWJkYIo/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1IBt_X3Rv-GybjquOjcQnyvY0R7oZhTtT/view?usp=drive_link)|
 | Kvasir           |[Download](https://drive.google.com/file/d/1HtV6cTiSA7I01_fLIthprQ-ViTPvXCb9/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1dPqiPFOmear24XYUPzsIHT52oF65clMs/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1nAWSTKJ05xeMMq2R05LioVcu1WiDmNmw/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1Kc4rEEfT8w5MIFdhmV9YUyJY3zwH-8Yf/view?usp=drive_link)|
 | MURA             |[Download](https://drive.google.com/file/d/1uwGYNym6vnQTxDUtdKTyL_KVmwrNCyJo/view?usp=drive_link)|[Download](https://drive.google.com/file/d/16vpyWh9gfj0TwJZBeNWD1ymcyvkFqpCl/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1Pg2ChmMVHUZqZmhpn1_Jrpyt9VBkocNR/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1nSflcnkNG4dJ2dFaYuipoOFYk76kT9uU/view?usp=drive_link)|
+
+
+
 
 
 ## References
