@@ -14,7 +14,7 @@ The structure of this repository is as follows:
 * **Checkpoints** - *weights/* folder is a placeholding directory as well. `.pth` files of our selected trained models and MAE & DINO pre-trained ViT weights should be put in this directory.
 
 ## Training
-### Hyperparamter Settings
+### Hyperparameter Settings
 
 | Dataset   | Model init. | Optimizer | Learning Rate | Momentum | Weight Decay | Scheduler       | Total Epoch | Saved Epoch | Batch Size |
 |-----------|-------------|-----------|---------------|----------|--------------|-----------------|-------------|-------------|------------|
