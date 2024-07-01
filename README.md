@@ -19,9 +19,15 @@ The structure of this repository is as follows:
 | Dataset   | Model init. | Optimizer | Learning Rate | Momentum | Weight Decay | Scheduler       | Total Epoch | Saved Epoch | Batch Size |
 |-----------|-------------|-----------|---------------|----------|--------------|-----------------|-------------|-------------|------------|
 | MURA      | Random      | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 200         | 180         | 64         |
+<<<<<<< HEAD
 | ^          | Sup         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 9           | 64         |
 | ^          | DINO        | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 150         | 43          | 64         |
 | ^          | MAE         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 35          | 64         |
+=======
+|           | Sup         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 9           | 64         |
+|           | DINO        | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 150         | 43          | 64         |
+|           | MAE         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 35          | 64         |
+>>>>>>> c6034e6f6863adc53e770898e21f1d924882ee76
 | CP-CHILD  | Random      | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 18          | 64         |
 | ^          | Sup         | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 5           | 64         |
 | ^          | DINO        | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 12          | 64         |
