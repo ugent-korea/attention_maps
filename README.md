@@ -217,7 +217,7 @@ The table below shows the hyperparameter settings used to train each model of th
 
 
 ### Checkpoints
-This is another option to reproduce our results. You can just directly download checkpoints and load them to run `main.py`.
+This is another option to reproduce our results. You can just directly download checkpoints, put them into `checkpoints` directory, and load them to run `main.py`.
 | Dataset / Method |           Random | Supervised | DINO | MAE |
 |------------------|-----------------:|-----------:|-----:|----:|
 | CP-Child         |[Download](https://drive.google.com/file/d/12yZ1JxoEnSNuXQIfoWvs-DvN9DaI6ZMp/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1junOUWWRRTPtvauJeIxu1dzwjMtYwOSl/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1zL8fJW69Ze4EfvPt58k2idNJ8kLhVR-c/view?usp=drive_link)|[Download](https://drive.google.com/file/d/1eI38mIIHDod2czM4klsIgf_3tyyimWaJ/view?usp=drive_link)|
