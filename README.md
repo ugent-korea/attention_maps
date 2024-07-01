@@ -18,22 +18,22 @@ The structure of this repository is as follows:
 
 | Dataset   | Model init. | Optimizer | Learning Rate | Momentum | Weight Decay | Scheduler       | Total Epoch | Saved Epoch | Batch Size |
 |-----------|-------------|-----------|---------------|----------|--------------|-----------------|-------------|-------------|------------|
-| MURA      | Random      | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 200         | 180         | 64         |
-|           | Sup         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 9           | 64         |
-|           | DINO        | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 150         | 43          | 64         |
-|           | MAE         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 35          | 64         |
 | CP-CHILD  | Random      | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 18          | 64         |
 |           | Sup         | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 5           | 64         |
 |           | DINO        | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 12          | 64         |
 |           | MAE         | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 11          | 64         |
+| DUKE      | Random      | SGD       | 0.1           | 0.3      | 0            | CosineAnnealing | 200         | 79          | 64         |
+|           | Sup         | SGD       | 0.03          | 0.1      | 0            | CosineAnnealing | 20          | 2           | 64         |
+|           | DINO        | SGD       | 0.005         | 0.1      | 0            | CosineAnnealing | 15          | 5           | 64         |
+|           | MAE         | SGD       | 0.03          | 0.1      | 0            | CosineAnnealing | 15          | 2           | 64         |
 | Kvasir    | Random      | SGD       | 0.08          | 0.1      | 0            | CosineAnnealing | 25          | 24          | 32         |
 |           | Sup         | SGD       | 0.0018        | 0.1      | 0            | CosineAnnealing | 25          | 8           | 32         |
 |           | DINO        | SGD       | 0.0012        | 0.1      | 0.0001       | CosineAnnealing | 25          | 20          | 32         |
 |           | MAE         | SGD       | 0.02          | 0.1      | 0.0001       | CosineAnnealing | 25          | 25          | 32         |
-| DBC       | Random      | SGD       | 0.1           | 0.3      | 0            | CosineAnnealing | 200         | 79          | 64         |
-|           | Sup         | SGD       | 0.03          | 0.1      | 0            | CosineAnnealing | 20          | 2           | 64         |
-|           | DINO        | SGD       | 0.005         | 0.1      | 0            | CosineAnnealing | 15          | 5           | 64         |
-|           | MAE         | SGD       | 0.03          | 0.1      | 0            | CosineAnnealing | 15          | 2           | 64         |
+| MURA      | Random      | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 200         | 180         | 64         |
+|           | Sup         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 9           | 64         |
+|           | DINO        | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 150         | 43          | 64         |
+|           | MAE         | SGD       | 0.001         | 0.9      | 0.0001       | CosineAnnealing | 100         | 35          | 64         |
 
 
 
