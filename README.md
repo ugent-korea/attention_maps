@@ -18,7 +18,7 @@ The structure of this repository is as follows:
 
 | Dataset   | Model init. | Optimizer | Learning Rate | Momentum | Weight Decay | Scheduler       | Total Epoch | Saved Epoch | Batch Size |
 |-----------|-------------|-----------|---------------|----------|--------------|-----------------|-------------|-------------|------------|
-| CP-CHILD  | Random      | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 18          | 64         |
+| CP-Child  | Random      | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 18          | 64         |
 |           | Sup         | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 5           | 64         |
 |           | DINO        | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 12          | 64         |
 |           | MAE         | Adam      | 0.00001       | 0.9      | 0.0001       | CosineAnnealing | 20          | 11          | 64         |
