@@ -4,6 +4,13 @@ This repository contains the implementation of the project _"Are attention maps 
 
 ![intermap](./media/interpretability_maps.png)
 
+## Requirements
+We recommend to use Python virtual environmnet using Conda.  
+You can install the required dependencies:
+```
+conda env create -f requirements.yaml
+```
+
 ## Code Usage & Reproduction of the Results
 
 You can run `main.py` to generate interpretability maps and final evaluation results over all datasets and interpretability methods.
