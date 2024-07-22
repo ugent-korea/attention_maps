@@ -83,6 +83,8 @@ def load_model(dataset_type, init_type, method, src = '../weights'):
     elif method == "gradcam":
         model = load_vit(init_type)
     elif method == "attention":
+        # DINO version edited ViT does not work so used valina timm ViT for attention
+        # This issue will be investigated and revised
         model = timm.create_model('vit_base_patch16_224', pretrained=False)
         model.head = nn.Linear(in_features=768, out_features=2, bias=True)       
 
